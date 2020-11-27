@@ -7,11 +7,11 @@ import { AboutComponent } from './pages/about/about.component';
 // Add routes in the array
 const routes: Routes = [
   {path: '', component: TodosComponent},
-  {path: 'about/me', component: AboutComponent}
+  {path: 'about', component: AboutComponent}
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {useHash: true})],
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
