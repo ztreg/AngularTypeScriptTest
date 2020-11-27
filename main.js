@@ -540,7 +540,7 @@ __webpack_require__.r(__webpack_exports__);
 // Add routes in the array
 const routes = [
     { path: '', component: _components_todos_todos_component__WEBPACK_IMPORTED_MODULE_2__["TodosComponent"] },
-    { path: 'about/me', component: _pages_about_about_component__WEBPACK_IMPORTED_MODULE_3__["AboutComponent"] }
+    { path: 'about', component: _pages_about_about_component__WEBPACK_IMPORTED_MODULE_3__["AboutComponent"] }
 ];
 class AppRoutingModule {
 }
